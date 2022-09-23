@@ -13,6 +13,7 @@
 }
 
 body{
+    overflow-x: hidden;
     background: #0e0f10;
 }
 p{
@@ -26,12 +27,15 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 25px;
 }
 header ul{
     display: flex;
     align-items: center;
     list-style: none;
+    
 }
+
 
 .Nav-Left{
     position: relative;
@@ -40,41 +44,59 @@ header ul{
     width: 20vw;
     margin-right: 20%;
 }
-.Nav-Right{
-    height: 50%;
-    width: 60vw;
-    
-}
-.Nav-Left li{
-    position: absolute;
-    left: 6vw;
-    top: 2vh;
-}
-.Nav-Right ul{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right: 20px;
-    gap: 50px;
-}
-ul ion-icon{
-    width: 40px;
-    height: 40px;
-}
 .Nav-Left li{
     font-size: 30px;
     font-weight: 700;
     padding: 0px;
 }
 li{
-    font-size: 20px;
+    font-size: 1.3em;
     padding: 20px;
 }
+.Nav-Left li{
+    position: absolute;
+    left: 6vw;
+    top: 2vh;
+}
+.Nav-Right{
+    height: 50%;
+    width: 60vw;
+    
+}
+.Nav-Right a{
+    position: relative;
+    text-decoration: none;
+    background-color: rgba(84,84,84,0.75);
+    border-radius: 20px;
+    font-size: 1em;
+    padding: 10px;
+    font-weight: 600;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+.Nav-Right ul{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    gap: 10px;
+}
+
+ul ion-icon{
+    position: absolute;
+    right: 12px;
+    top: 6px;
+    width: 30px;
+    height: 30px;
+}
+
 span{
     color: rgb(244,207,10);
 }
 main{
-    height: 50vh;
+    margin-top: 8vh;
+    height: 80vh;
     width: 100vw;
     display: flex; 
     align-items: center;
@@ -87,7 +109,7 @@ main{
     flex-direction: column;
 }
 main h1{
-    font-size: 60px;
+    font-size: 3.6em;
     color: white;
     padding-bottom: 10px; 
 }
@@ -129,4 +151,7 @@ main input{
 }
 .Article-Box h4{
     font-size: 24px;
+}
+::-webkit-scrollbar{
+    width: 5px;
 }

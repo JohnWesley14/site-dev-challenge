@@ -50,7 +50,7 @@ header ul{
     padding: 0px;
 }
 li{
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding: 20px;
 }
 .Nav-Left li{
@@ -80,7 +80,7 @@ li{
     align-items: center;
     position: absolute;
     right: 40px;
-    gap: 10px;
+    gap: 5px;
 }
 
 ul ion-icon{
@@ -125,6 +125,7 @@ main input{
     border-radius: 30px;
     width: 250px;
     height: 60px;
+    border: none;
     background-color:#5c0d78;
 }
 .Article-Box{
